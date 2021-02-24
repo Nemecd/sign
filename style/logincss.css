@@ -1,0 +1,96 @@
+.wrap{
+    width: 100%;
+    background-color: white;
+}
+.in-wrap{
+    width: 40%;
+    height: auto;
+    background-color: white;
+    transition: box_shadow 100ms;
+    margin: 0 auto;
+    border:1px solid #ddd;
+    border-radius: 25px;
+    outline: none;
+    margin-top: 15vh;
+    opacity: 0.5 ;
+}
+.box{
+    display: block;
+    border:1px solid #ddd;
+    color: rgb(0,0,0, 0.87);
+    font-size: 16px;
+    padding: 13px;
+    padding-left: 45px;
+    border-radius: 25px;
+    width: 80%;
+    transition: box_shadow 100ms;
+    outline: none;
+    margin-top: 35px;
+    margin-left: 25px;
+}
+.box:hover{
+    border: 1px solid #fff;
+    box-shadow: 0 0 2px rgba(0,0,0,0.05),
+                0 0 2px rgba(0,0,0,0.05),
+                0 0 3px rgba(0,0,0,0.05),
+                0 0 4px rgba(0,0,0,0.05),
+                0 0 5px rgba(0,0,0,0.05),
+                0 0 4px rgba(0,0,0,0.05),
+                0 0 5px rgba(0,0,0,0.05)
+}
+h5{
+    color: black;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 20px;
+    margin-left: 25px ;
+    padding-top: 25px;
+}
+h1{
+    text-align: center;
+    font-family: 'Courgette', cursive;
+
+}
+button {
+    width: 140px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    }
+  
+  button:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px; 
+    color: blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 35px;
+    text-decoration: none;  
+  }
+  .check{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 25px; 
+  }
+  a:hover{
+      text-decoration: underline;
+  }
